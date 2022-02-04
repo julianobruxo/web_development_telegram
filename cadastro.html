@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    
+<div class="cadastro">
+
+                <h1>Formulário de Cadastro</h1>
+        
+            <form>
+                <label for="nome">Nome Completo:</label>
+                <input type="text" name="nome" id="nome" size="50" maxlength="100" required autofocus placeholder="Seu nome">
+        
+                <label for="telefone">Telefone:</label>
+                <input type="tel" name="telefone" id="telefone" size="50" maxlength="100" required placeholder="Seu telefone">
+        
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" size="50" maxlength="100" required placeholder="Seu email">
+        
+                <label for="number">Idade:</label>
+                <input type="number" name="Idade" id="idade" value="Idade" min="10" max="65" max value="100">
+        
+                <label for="cargo">Cargo</label>
+                <input type="text" list="cargo" name="cargo" id="cargo">
+
+                <label for="area">Área de Atuação</label>
+                <input type="text" list="area" name="area" id="area">   
+        
+
+                <label for="select">Estado</label>
+                <select>
+                        <option value="">Selecione</option>
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espirito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                    
+                        </select><br/><br/>
+        
+               <input style="font-size:15px; width:60px; height:30px; color: white; background-color: #020230;" type="submit" name="enviar" id="enviar" value="Enviar">
+                
+        
+           </form> </div>
+</body>
+</html>
